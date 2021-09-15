@@ -1,0 +1,46 @@
+.card {
+    border-radius: 0px !important;
+    background-color: #f7f8fa !important;
+    border:0px !important;
+}
+.course_card {
+    padding: 0px;
+    background-color: #F7F8FA;
+}
+.course_container {
+    background-color: #fff !important;
+}
+.course_col {
+    padding: 0px;
+}
+.course_header_col {
+    background-color: #29303b;
+    color: #fff;
+    padding: 15px 10px 10px;
+}
+.course_header_col img {
+    padding: 0px 0px;
+}
+.course_btn {
+    color: #95979a;
+    border: 1px solid #95979a;
+    padding: 7px 10px;
+}
+.course_btn:hover {
+    color: #fff;
+    border:1px solid #fff;
+}
+.lesson_duration{
+    border-radius: 5px;
+    padding-top: 8px;
+    color: #5C5D61;
+    font-size: 13px;
+    font-weight: 100;
+}
+.quiz-card {
+    border: 1px solid #dcdddf !important;
+}
+.bg-quiz-result-info {
+    background-color: #007791 !important;
+    padding: 13px !important;
+}

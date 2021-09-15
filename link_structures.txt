@@ -1,0 +1,26 @@
+Home
+=====
+eduera.com.bd
+eduera.com.bd/home
+eduera.com.bd/courses
+eduera.com.bd/course/php-for-beginner-2
+
+
+Login / Register
+=================
+eduera.com.bd/login
+
+
+
+My Board
+=============
+eduera.com.bd/user/
+
+
+
+Dashboard
+=============
+eduera.com.bd/admin
+eduera.com.bd/admin/dashboard
+eduera.com.bd/admin/user-list
+

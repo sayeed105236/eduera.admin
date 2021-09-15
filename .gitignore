@@ -1,0 +1,8 @@
+./index.php
+application/logs/
+application/config/config.php
+application/config/database.php
+.htaccess
+./appspec.yml
+**/logs
+certificate

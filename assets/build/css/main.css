@@ -1,0 +1,66 @@
+.pagination-bar {
+	background: #DDD;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+.pagination-bar-node {
+	padding: 10px;
+}
+
+
+.pagination-bar-node-active{
+	color: #fff;
+}
+
+.filter-button-bar{
+	padding: 40px 5px 0px 12px;
+}
+
+.filter-button-bar .alert{
+	margin-right: 5px;
+}
+
+.sign-up-email-error-message {
+	margin: 0;
+	padding: ;
+	width: 47.8%;
+	margin-left: 8px;
+}
+
+.fa-pencil-square-o {
+    cursor: pointer;
+ }
+
+
+ .page-not-found-banner {
+    font-size: 25px;
+    padding: 100px 0px;
+}
+
+/* User list course color start */
+
+.dot_not_paid {
+  height: 15px;
+  width: 15px;
+  background-color: #d36335;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot_partial_paid {
+  height: 15px;
+  width: 15px;
+  background-color: #c8d06c;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot_full_paid {
+  height: 15px;
+  width: 15px;
+  background-color: #5bd070;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* User list course color end */

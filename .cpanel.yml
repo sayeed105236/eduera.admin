@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/edueracom/admin.eduera.com.bd/
+    - /bin/cp -R * $DEPLOYPATH

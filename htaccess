@@ -1,0 +1,30 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+
+
+RewriteCond %{HTTP_HOST} eduera\.com.bd [NC]
+
+RewriteCond %{SERVER_PORT} 80
+
+RewriteRule ^(.*)$ https://eduera.com.bd/$1 [R,L]
+
+
+RewriteOptions inherit
+
+RewriteEngine on
+
+
+Header set content-Security-Policy: upgrade-insecure-requests
+
+
+
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+AddHandler application/x-httpd-ea-php74 .php
